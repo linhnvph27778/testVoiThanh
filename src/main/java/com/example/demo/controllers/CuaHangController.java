@@ -104,6 +104,8 @@ public class CuaHangController {
         System.out.println("lịnh thêm l2");
 
         System.out.println("nhan thêm");
+
+        System.out.println("lịnh thêm l3");
         return "update";
     }
     @PostMapping("/update")
