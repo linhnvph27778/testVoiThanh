@@ -98,7 +98,7 @@ public class CuaHangController {
     public String viewUpdate(@PathVariable("id") CuaHang cuaHang,Model model){
 //        model.addAttribute("ch", cuaHangServiceJpa.getOne(id));
         model.addAttribute("action","/cua-hang/update");
-
+        System.out.println("sdfsdfsfsdf");
         return "update";
     }
     @PostMapping("/update")
@@ -112,6 +112,7 @@ public class CuaHangController {
         }
 
     }
+
 
 
 }
