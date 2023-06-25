@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.UUID;
-
+//hùng test thử github trên intellij
 @Controller
 @RequestMapping("/cua-hang")
 public class CuaHangController {
@@ -100,10 +100,13 @@ public class CuaHangController {
         model.addAttribute("action","/cua-hang/update");
         System.out.println("sdfsdfsfsdf");
         System.out.println("lịnh thêm");
+
+        System.out.println("lịnh thêm l2");
+
         System.out.println("nhan thêm");
         System.out.println("nhan thêm lần 4");
 
-
+        System.out.println("lịnh thêm l3");
         return "update";
     }
     @PostMapping("/update")
@@ -117,7 +120,6 @@ public class CuaHangController {
         }
 
     }
-
 
 
 }
