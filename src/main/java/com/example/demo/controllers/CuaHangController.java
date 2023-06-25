@@ -101,6 +101,7 @@ public class CuaHangController {
         System.out.println("sdfsdfsfsdf");
         System.out.println("lịnh thêm");
         System.out.println("nhan thêm");
+        System.out.println("nhan thêm lần 4");
 
 
         return "update";
