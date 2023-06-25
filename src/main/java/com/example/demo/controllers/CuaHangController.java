@@ -98,6 +98,10 @@ public class CuaHangController {
     public String viewUpdate(@PathVariable("id") CuaHang cuaHang,Model model){
 //        model.addAttribute("ch", cuaHangServiceJpa.getOne(id));
         model.addAttribute("action","/cua-hang/update");
+        System.out.println("sdfsdfsfsdf");
+        System.out.println("lịnh thêm");
+        System.out.println("nhan thêm");
+
 
         return "update";
     }
@@ -112,6 +116,7 @@ public class CuaHangController {
         }
 
     }
+
 
 
 }
