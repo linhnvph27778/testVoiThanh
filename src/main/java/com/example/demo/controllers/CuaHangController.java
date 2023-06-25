@@ -99,6 +99,7 @@ public class CuaHangController {
 //        model.addAttribute("ch", cuaHangServiceJpa.getOne(id));
         model.addAttribute("action","/cua-hang/update");
         System.out.println("sdfsdfsfsdf");
+        System.out.println("lịnh thêm");
         return "update";
     }
     @PostMapping("/update")
