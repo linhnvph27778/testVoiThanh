@@ -100,6 +100,7 @@ public class CuaHangController {
         model.addAttribute("action","/cua-hang/update");
         System.out.println("sdfsdfsfsdf");
         System.out.println("lịnh thêm");
+        System.out.println("lịnh thêm l2");
         return "update";
     }
     @PostMapping("/update")
